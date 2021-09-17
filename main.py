@@ -7,7 +7,7 @@
 
 import requests
 
-domain = "facebook.com" #DO NOT USE ANY WEBSITE LIKE FACEBOOK, AMAZON, GOOGLE etc. THIS IS JUST FOR TESTING PURPOSE. CHANGE IT TO YOUR OWN SERVER NAME.
+domain = input("Enter the website : ") #DO NOT USE ANY WEBSITE LIKE FACEBOOK, AMAZON, GOOGLE etc. THIS IS JUST FOR TESTING PURPOSE. CHANGE IT TO YOUR OWN SERVER NAME.
 
 file = open("subdomains.txt", "r")
 
